@@ -1,0 +1,20 @@
+<template name="mainLayout">
+
+    <div id="header" class="text-center">
+
+        <p style="font-size: 26px;">Welcome to the Portfolio of</p>
+        <p style="font-size: 72px; margin-top: -20px;">Alec Wantoch</p>
+
+    </div>
+
+    <div id="outerContent" class="text-center">
+
+        {{> navigation }}
+
+        <div id="routeContent">
+            {{> Template.dynamic template=main }}
+        </div>
+
+    </div>
+
+</template>

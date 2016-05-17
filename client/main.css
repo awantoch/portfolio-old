@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Andes;
+    src: url('/fonts/Andes.woff');
+}
+
+body {
+    background: url('/images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#header {
+    margin-top: 55px;
+    font-family: Andes;
+    color: #A19BB2;
+}
+
+#navigation {
+    margin-top: 75px;
+}
+
+#outerContent {
+    margin: 0 auto;
+    max-width: 90vw;
+    min-width: 90vw;
+    max-height: 64vh;
+    min-height: 64vh;
+}
+
+#routeContent {
+    height: 100%;
+    width: 100%;
+}
+
+#navigation > img {
+    height: 170px;
+    padding: 20px;
+}
